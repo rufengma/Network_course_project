@@ -1,4 +1,4 @@
-### Road network of Chicago region
+## Road network of Chicago region
 This is the road transportation network of the Chicago region (USA). Nodes are transportation nodes (1,467 vertices), and edges are connections (1,298 edges). The data source is from the website which was updating by astabler on GitHub. The link is here www.bgu.ac.il/~bargera/tntp/. They collected multiple transportation networks including Anaheim Network, Barcelona Network, Austin Network, Chicago network, and more. I downloaded the TSV file from KONECT. This database was created by KONECT, in April 2017. All edges are undirected, and edges are unweighted. Study these transportation networks can help people solve the most basic problems in transportation research, like traffic assignment problem.
 </p><p>
 
@@ -20,7 +20,7 @@ For the Chicago road, the most important nodes are the nodes who have the highes
 
   </p><p>
   
-  ### Facebook social circles
+## Facebook social circles
 The dataset consists of ‘circles’ (‘friends lists’) from Facebook. Facebook data was collected from survey participants using the Facebook app. Facebook data has been anonymized by replacing the facebook ids for each user with a value. Because this dataset is giant for my computer, I deleted some notes and edges. Finally, the final version of the network contains 1,570 nodes and 64,920 edges. Compared with the previous 2 cases, I found the social networks has way more connections between people. I think this is why the website like Facebook called social networks, because the purpose of people having these websites’ account is to make connections. From their description, I know the edges are unweighted and undirected, so I did not consider the in- and out- degrees.
 </p><p>
 <img src="images/f1.png" width="200">
