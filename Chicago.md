@@ -17,3 +17,27 @@ Figure 1. Road networks of Chicago region. Here are 3 networks, one is the real 
   </p><p>
   
 For the Chicago road, the most important nodes are the nodes who have the highest degree numbers. Which means that is the main node can connect multiple roads. Which is a cross. And also if the node always on the shortest path that also means it is an important point. The betweenness centrality high node is another important node. This is a scale free network.
+
+  </p><p>
+  
+  ### Facebook social circles
+The dataset consists of ‘circles’ (‘friends lists’) from Facebook. Facebook data was collected from survey participants using the Facebook app. Facebook data has been anonymized by replacing the facebook ids for each user with a value. Because this dataset is giant for my computer, I deleted some notes and edges. Finally, the final version of the network contains 1,570 nodes and 64,920 edges. Compared with the previous 2 cases, I found the social networks has way more connections between people. I think this is why the website like Facebook called social networks, because the purpose of people having these websites’ account is to make connections. From their description, I know the edges are unweighted and undirected, so I did not consider the in- and out- degrees.
+</p><p>
+
+<img src="images/f1.png" width="200">
+</p><p>
+<img src="images/f2.png" height="200">
+</p><p>
+<img src="images/f3.png" height="300">
+</p><p>
+<img src="images/f4.png" height="300">
+</p><p>  
+<img src="images/f5.png" height="300">
+</p><p>    
+
+Discussion:
+For the facebook networks, the most important nodes are the nodes who have the highest degree numbers. Which is a cross. And also if the node always on the shortest path that also means it is an important point. The betweenness centrality high node is another important node. This is a scale free network.
+Other:
+I used Python for global network properties calculation. The node vice properties are exported from Gephi into .csv files. Additionally, the shorted path is calculated using Python networkX package. Then I used Python Pandas to read the .csv files into the DataFrame for mean and variance calculations. The corresponding histograms are plotted using the Matplotlib package and histogram fitting is done using Scipy stat package. All the code is included in the Jupyter notebook file.
+
+  
